@@ -136,10 +136,7 @@ body{
         font-size: 25px !important;
         
     }
-    .cityBox{
-        font-size: 30px !important;
-        
-    }
+    
 }
 
 @media screen and (max-width: 650px) {
