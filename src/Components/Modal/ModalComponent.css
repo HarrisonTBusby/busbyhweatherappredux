@@ -1,0 +1,31 @@
+@font-face {
+    font-family: Bangers;
+    src: url('../Fonts/Bangers-Regular.ttf');
+}
+
+.btnColor{
+    background-color:  #D4E6B5 !important;
+    border: none;
+    color: black;
+    font-family: Bangers;
+    height: 45px;
+}
+
+.btnColor:hover{
+    background-color: #525f3c !important;
+}
+
+.btnColor2{
+    background-color: rgb(149, 29, 29) !important;
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-family: Bangers;
+}
+
+.modalBackground{
+    background-image: url('../../Assets/Sephiroth.avif') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

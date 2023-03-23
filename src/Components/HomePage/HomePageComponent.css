@@ -1,0 +1,238 @@
+@font-face {
+    font-family: Bangers;
+    src: url('../Fonts/Bangers-Regular.ttf');
+}
+
+.fontHeader{
+    font-family: Bangers;
+    font-size: 100px;
+    color: white;
+}
+
+body{
+    background-color:#92ac64;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: auto;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.spaceBetween{
+    display: flex;
+    justify-content: space-between;
+}
+.headingBackground1{
+    background-color: #AFC97E;
+    border-radius: 5px;
+    box-shadow: inset;
+}
+
+.headingBackground2{
+    background-image: url('../../Assets/Sky.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: inset;
+}
+
+.inputBox{
+    width: 300px;
+    background-color: #D4E6B5;
+    border: 2px;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    font-family: Bangers;
+    box-shadow: inset;
+}
+
+.mainBox{
+    background-color: #AFC97E;
+    border-radius: 30px;
+    font-family: Bangers;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 600px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.mainBox2{
+    background-color: #AFC97E;
+    border-radius: 30px;
+    font-family: Bangers;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+
+}
+
+.cityBox{
+    background-color: #D4E6B5;
+    font-size: 30px;
+    padding: 50px;
+    border-radius: 20px;
+    
+    
+}
+
+.cityBox2{
+    background-color: #D4E6B5;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+}
+
+.DayBox{
+    background-color: #D4E6B5 !important;
+}
+
+.iconSize{
+    width: 45px;
+    height: 45px;
+}
+
+.btnFav{
+    border: none;
+    border-radius: 5px;
+    height: 45px;
+}
+
+
+
+.mlSearch{
+    margin-left: 275px;
+}
+
+@media screen and (max-width: 1440px) {
+    .mlSearch{
+        margin-left: 195px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .mlSearch{
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mlSearch{
+        margin-left: 170px;
+    }
+
+    .cityBox{
+        font-size: 25px !important;
+        
+    }
+    .cityBox{
+        font-size: 30px !important;
+        
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .mlSearch{
+        margin-left: 10px;
+    }
+
+    .inputBox{
+        width: 183px !important;
+        height: 45px !important;
+    }
+
+    .cityBox{
+        font-size: 21px !important;
+        
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .mlSearch{
+        margin-left: 10px;
+    }
+
+    .inputBox{
+        width: 183px !important;
+        height: 45px !important;
+    }
+    .cityBox{
+        font-size: 18px !important;
+        
+    }
+}
+
+
+
+
+@media screen and (max-width: 425px) {
+   .inputBox{
+    width: 158px !important;
+    height: 45px !important;
+   }
+   .mlSearch{
+    margin-left: 0px;
+   }
+
+   .cityBox{
+    font-size: 15px !important;
+    
+}
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+   .fontHeader{
+    font-size: 80px;
+   }
+
+
+   .cityBox{
+    padding: 20px;
+   }
+
+   .cityBox2{
+    padding: 10px;
+   }
+
+   .inputBox{
+    width: 200px;
+    height: 50px;
+   }
+
+   .cityBox{
+    font-size: 20px !important;
+    
+}
+
+  }
+
+  @media screen and (max-width: 320px) {
+
+  .fontHeader{
+    font-size: 70px;
+  }
+
+
+}
+
+
+
+
