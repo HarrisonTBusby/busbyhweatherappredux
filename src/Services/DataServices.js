@@ -47,7 +47,6 @@ async function AsyncGetCity(inputValue){
         WeatherData5Day4Date: data2.list[32].dt_txt,
         WeatherData5Day5Date: data2.list[39].dt_txt,
     }
-    console.log(arr);
     return arr;
 }
 

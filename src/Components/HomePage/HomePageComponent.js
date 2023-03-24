@@ -1,9 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Row, Col, Card } from 'react-bootstrap';
+import {Row, Col} from 'react-bootstrap';
 import { useState, useEffect } from 'react';
 import './HomePageComponent.css';
-import { GetWeatherData, AsyncGetCity, AsyncGetWeather5Day } from '../../Services/DataServices';
-import { saveToLocalStorageByName, getLocalStorage, removeFromLocalStorage } from '../../Services/LocalStorage';
+import {AsyncGetCity} from '../../Services/DataServices';
+import { saveToLocalStorageByName} from '../../Services/LocalStorage';
 import FavoritesButton from '../../Assets/FavoritesFinalFantasy.png';
 import FavModal from '../Modal/ModalComponent.js';
 
@@ -65,6 +65,8 @@ export default function HomePageComponent(props) {
     const [weatherDay3Date, setWeatherDay3Date] = useState('');
     const [weatherDay4Date, setWeatherDay4Date] = useState('');
     const [weatherDay5Date, setWeatherDay5Date] = useState('');
+
+    
 
 
     useEffect(() => {
@@ -147,6 +149,7 @@ export default function HomePageComponent(props) {
             setWeatherDay3Date(dayAsString3);
             setWeatherDay4Date(dayAsString4);
             setWeatherDay5Date(dayAsString5);
+
         })();
     }, []);
 
@@ -155,6 +158,8 @@ export default function HomePageComponent(props) {
     function Fav() {
         saveToLocalStorageByName(inputValue);
     }
+
+   
 
 
     async function handleKeyPress(event) {
@@ -236,6 +241,7 @@ export default function HomePageComponent(props) {
             setWeatherDay3Date(dayAsString3);
             setWeatherDay4Date(dayAsString4);
             setWeatherDay5Date(dayAsString5);
+            
 
 
         }
@@ -247,7 +253,7 @@ export default function HomePageComponent(props) {
         <body>
 
             {/*Title  */}
-            <Row className='mt-4 '>
+            <Row className='mt-4'>
                 <Col className='headingBackground2 center col-lg-6 col-md-12 col-sm-12'>
                     <p className='fontHeader'>Weather App</p>
                 </Col>

@@ -4,7 +4,7 @@
 }
 
 .btnColor{
-    background-color:  #D4E6B5 !important;
+    background-color: #80A1C1 !important;
     border: none;
     color: black;
     font-family: Bangers;
@@ -27,5 +27,11 @@
     background-image: url('../../Assets/Sephiroth.avif') !important;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.cityBtn{
+    background-color: rgb(206, 206, 206);
+    border: none;
+    border-radius: 5px;
 }
 
